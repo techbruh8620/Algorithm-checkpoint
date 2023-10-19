@@ -1,0 +1,25 @@
+ALGORITHM Array_of_sum_of_distinc_element
+VAR
+    set1:Array_of interger[L]
+    set2:Array_of interger[M]
+    distinc_Array:Array_of interger[O]
+    distinc_sum:interger:=0
+BEGIN
+    read(distinc_sum)
+     FOR i FROM 0 TO N STEP 1  DO
+        IF(set1.indexOf(set1[i])===-1)THEN
+        distinc_Array.push(set1 [i]);
+        END_IF
+     END_FOR
+
+     FOR M FROM O TO M STEP 1  DO
+        IF(set1.indexOf(set2[M])===-1)
+        distinc_Array.push(set2 [M])
+        END_IF
+     END_FOR
+
+     FOR n FROM O to O step 1 Do
+    distinc_sum+=distinc_Array[L]
+    
+    write(distinc_Array)
+END
